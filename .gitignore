@@ -1,0 +1,65 @@
+# Bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Python distribution/build
+build/
+dist/
+*.egg-info/
+
+# Logs and local data
+*.log
+*.sqlite3
+*.db
+*.csv
+*.tsv
+*.json
+*.bak
+
+# Environment/config files
+.env
+.env.*     # e.g., .env.dev, .env.prod
+*.pem
+*.key
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Scrapy-specific
+.scrapy/
+
+# PyInstaller
+*.spec
+
+# Test and coverage
+.coverage
+.tox/
+.pytest_cache/
+htmlcov/
+
+# Compiled Cython files
+*.c
+*.so
+
+# Temporary files
+*.tmp
+*.swp
+*.~ 
